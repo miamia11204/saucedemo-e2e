@@ -1,10 +1,13 @@
 {
   "name": "cypress-portfolio",
   "version": "1.0.0",
-  "description": "",
+  "description": "Cypress end-to-end tests for SauceDemo",
+  "private": true,
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "cypress run",
+    "test:open": "cypress open",
+    "test:chrome": "cypress run --browser chrome"
   },
   "keywords": [],
   "author": "",
